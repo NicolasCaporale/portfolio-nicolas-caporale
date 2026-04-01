@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     padding-top: 56px;
     scroll-behavior: smooth;
     color: #333;
@@ -38,4 +38,16 @@ header#home {
 
 footer a:hover {
     color: #0d6efd !important;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%) !important;
+}
+
+@media (max-width: 768px) {
+    header.vh-100 {
+        height: auto !important;
+        padding: 100px 0;
+    }
 }
